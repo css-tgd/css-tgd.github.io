@@ -2,30 +2,14 @@ body {
     height: auto !important;
     background-image: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
 }
-/*
-body{
-    background: var(--top-identity), linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
-    background-size: 359px 200px;
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100% !important;
-    height: auto !important;
-    }
 
-header #header-bar>.row {
-    background-size: 600% 600%;
-    padding-top: 0.6em;
-    padding-bottom: 0.4em;
-    border: none;
-}
-*/
 header {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .col-xs-4:nth-child(1):before {
     content: var(--top-identity);
     left: 350px;
-    top: -100px;
+    top: -130px;
     height: 300px;
     position: absolute;
 }
