@@ -8,8 +8,8 @@
     display: block;
     background: var(--sub-badge-url) no-repeat center;
     background-size: cover;
-    width: 28px;
-    height: 28px;
+    width: 18px;
+    height: 18px;
     transition: all 0.5s;
 }
 
@@ -20,7 +20,7 @@
 }
 
 #board-info #viewers-area {
-    float: right;
+    float: left;
     display: flex;
     align-items: center;
     color: #B2889E;
