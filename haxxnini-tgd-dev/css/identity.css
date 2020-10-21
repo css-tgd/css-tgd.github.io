@@ -1,0 +1,15 @@
+html {
+    height: auto !important;
+    background: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
+}
+header #header-bar>.row {
+    padding-top: 0.6em;
+    padding-bottom: 0.4em;
+    border: none;
+}
+.col-xs-4:nth-child(1):before {
+    content: var(--top-identity);
+    left: 350px;
+    top: 10px;
+    position: absolute;
+}

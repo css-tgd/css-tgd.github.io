@@ -1,9 +1,0 @@
-body{
-    background: linear-gradient(to bottom, #dfedfa, #7eaffe);
-}
-.col-xs-4:nth-child(1):before {
-    content: var(--top-identity);
-    left: 428px;
-    top: 10px;
-    position: absolute;
-}
