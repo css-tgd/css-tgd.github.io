@@ -1,3 +1,8 @@
+#board-info #viewers-area .fa-user{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
     content: var(--sub-badge-url);
@@ -12,8 +17,8 @@
     content: "명";
     cursor: text;
 }
-#board-info #viewers-area .fa-user{
+#board-info #viewers-area {
+    float: right;
     display: flex;
     align-items: center;
-    margin-left: 10px;
 }
