@@ -12,3 +12,8 @@
     content: "명";
     cursor: text;
 }
+#board-info #viewers-area .fa-user{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
