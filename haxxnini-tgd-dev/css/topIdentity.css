@@ -1,8 +1,9 @@
 body{
-    background: var(--top-identity), linear-gradient(to bottom, #dfedfa, #7eaffe);
-    background-size: 359px 200px, cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    width: 100% !important;
-    height: auto !important;
+    background: linear-gradient(to bottom, #dfedfa, #7eaffe);
+}
+.col-xs-4:nth-child(1):before {
+    content: var(--top-identity);
+    left: 428px;
+    top: 10px;
+    position: absolute;
 }
