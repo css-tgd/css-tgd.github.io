@@ -1,5 +1,5 @@
 body{
-    background: var(--top-identity), linear-gradient(to bottom, #b0ceeb, #7eaffe);
+    background: var(--top-identity), linear-gradient(to bottom, #dfedfa, #7eaffe);
     background-size: 359px 200px, cover;
     background-repeat: no-repeat;
     background-position: top center;
