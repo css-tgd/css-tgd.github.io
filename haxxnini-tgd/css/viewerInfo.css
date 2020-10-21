@@ -19,12 +19,6 @@
     transition: all 0.5s;
 }
 
-#board-info #viewers-area {
-    display: flex;
-    align-items: center;
-    color: #B2889E;
-}
-
 #board-info #viewers-area #viewers{
     margin-left: 5px;
 }
