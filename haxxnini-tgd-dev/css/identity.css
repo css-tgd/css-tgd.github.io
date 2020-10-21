@@ -2,7 +2,9 @@ html {
     height: auto !important;
     background: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
 }
+
 header #header-bar>.row {
+    background-size: 600% 600%;
     padding-top: 0.6em;
     padding-bottom: 0.4em;
     border: none;
