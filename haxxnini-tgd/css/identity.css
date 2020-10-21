@@ -1,0 +1,15 @@
+body {
+    height: auto !important;
+    background-image: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
+}
+
+header {
+    padding-top: 180px;
+}
+.col-xs-4:nth-child(1):before {
+    content: var(--top-identity);
+    left: 350px;
+    top: -160px;
+    height: 300px;
+    position: absolute;
+}
