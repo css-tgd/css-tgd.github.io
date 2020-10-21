@@ -13,5 +13,6 @@ header #header-bar>.row {
     content: var(--top-identity);
     left: 350px;
     top: 10px;
+    height: 300px;
     position: absolute;
 }
