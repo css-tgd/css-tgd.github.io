@@ -10,8 +10,8 @@ header .row > div:nth-child(1) > a {
     background: var(--logo-url) no-repeat;
     background-size: contain;
     /* background-size: auto 50px; */
-    -webkit-animation: jello-vertical 0.9s both;
-            animation: jello-vertical 0.9s both;
+    -webkit-animation: jello-vertical 0.9s infinite !important;
+            animation: jello-vertical 0.9s infinite !important;
 }
   
  @-webkit-keyframes jello-vertical {
