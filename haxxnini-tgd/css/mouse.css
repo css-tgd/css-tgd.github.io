@@ -4,7 +4,11 @@ html {
 
 a,
 button,
-form,
+form
+{
+    cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAuCAYAAABEbmvDAAAAAXNSR0IArs4c6QAAArdJREFUWIW9mD1v2kAYxx+jfoN8gSpSWTxFVVMi5RuwsKLkM3hC7UQXOlVMKHuUiYwsjGxIuFQWkyULGFAGLx4Y0M2XIXqu5/P5Xuyz/5IlwBffz//n5e7igYF8v0vxcxzvPZO/cSLf71J+cvHe6RCxq2xcI1CqSU+HiF5WZ3pZndsFw4lVcLs//+hldaavz0+twXX6gyEcoyNcvV2XDrr58c07RsemWXLqxPHee3x5AN3Ejy8PLSF9iFWY73fpeBRA7/4OPn/5Kq281+cnCgDQu7+D/mDIfm+iUjuyH01zaLvdwXa7U1a1U7AyTaaz3PcsTQAgD9gYWLjewHIxL7jw+9dP6aRZmrCLd68uZC43MM94TaYzlkP8fT7Plos5G4/V3Qu+18o9LRjC8ZLBI9zV23VtqAKYCo6HEO+je+HsrxMoKRjCARSdKYNDMJdtQ1qVcbz34njviSFEjUdBIbyupX1DXWgBPhwDAKeuafuYyrkmZdRgdXDheuMMCGXV+duUMZhJSHHFqE0FFRwrg3MdTiswk4pz5VqlHGujSp0mv8twVgLTNVwX4XTeLly5ZgVmsjyh6rrm1DGxKOrAWYHxO1UZlKmbJjIGE998Mp0xh0QoF3lmDCa6NR4FbF/WxA7EGAwPHrj3slGVU5PVpu50iCjA/1DxJygEWC7mEK43bLvNh1gcr5JV8ouujUeBtuowFzEPTZ2zXsT5/1nI1B8Mc+HG8wPmoWkLse5jCCdzDcPEH4Rb6WNlcKJU/c5UztdKVbjx3nIxB0KI1ElCCCWE0EpgfPXZCuGyNCnAEUJoliZwe3vTzGGEd02WZyIcXlmasLPpJ9tJ0S2UTW+SwOWexR+YrcHwQeF6UxlKhOO/42erh/Ju6foZih9v8xKtHnht1kyrUIrWV5Xvd6nOvcr54eLsqIJ7B4L/+ztze9BdAAAAAElFTkSuQmCC') 0 0, progress  !important;
+}
+
 .fr-popup.emoticons,
 #article-list>.article-list-row>.item>.list-title>.list-writer>span,
 .reply > .reply-header > .reply-writer.logged,
