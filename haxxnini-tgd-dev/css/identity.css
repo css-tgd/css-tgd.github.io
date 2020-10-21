@@ -1,6 +1,6 @@
 body{
     background: var(--top-identity), linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
-    background-size: 359px 200px, cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: top center;
     width: 100% !important;
