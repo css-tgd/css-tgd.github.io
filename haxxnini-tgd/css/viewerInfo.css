@@ -20,7 +20,8 @@
 }
 
 #board-info #viewers-area {
-    display: block;
+    float: right;
+    display: flex;
     align-items: center;
     color: #B2889E;
 }
