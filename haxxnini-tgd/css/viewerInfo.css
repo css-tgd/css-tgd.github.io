@@ -14,7 +14,7 @@
 }
 
 #board-info #viewers-area .fa-user:after{
-    content: "관음중인 덜렁단 ";
+    content: "덜렁단 ";
     margin-left: 5px;
     transition: all 0.5s;
 }
