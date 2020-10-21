@@ -1,3 +1,8 @@
+body {
+    height: auto !important;
+    background-image: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
+}
+/*
 body{
     background: var(--top-identity), linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
     background-size: 359px 200px;
@@ -6,11 +11,6 @@ body{
     width: 100% !important;
     height: auto !important;
     }
-/*
-html, body {
-    height: auto !important;
-    background-image: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
-}
 
 header #header-bar>.row {
     background-size: 600% 600%;
@@ -20,12 +20,12 @@ header #header-bar>.row {
 }
 */
 header {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .col-xs-4:nth-child(1):before {
     content: var(--top-identity);
     left: 350px;
-    top: 10px;
+    top: -100px;
     height: 300px;
     position: absolute;
 }
