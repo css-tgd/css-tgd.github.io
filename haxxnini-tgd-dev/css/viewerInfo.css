@@ -1,8 +1,17 @@
 @media only screen and (hover: hover) and (pointer: fine){
     /* viewinfo */
+
     #board-info #viewers-area {
         font-size: 17px;
+        right: 0px;
+        margin-right: 1em;
+        margin-top: 0.4em;
+        position: inherit;
+        display: inline-flex;
+        align-items: center;
+        color: #a8ace4;
     }
+
     #board-info #viewers-area .fa-user{
         display: flex;
         align-items: center;
@@ -25,10 +34,7 @@
     }
 
     #board-info #viewers-area {
-        float: right;
-        display: flex;
-        align-items: center;
-        color: #a8ace4;
+  
         
     }
 
@@ -59,12 +65,12 @@
     /* tgd-rank */
     #board-info #score-area {
         font-size: 17px;
-        color: rgba(111, 133, 233, 0.4);
+        color: #6f89e9b3;
     }
 
     #board-info #score-area .fa-trophy {
-        display: flex;
-        align-items: center;
+        display: inline-flex;
+        align-items: baseline;
         margin-left: 10px;
     }
 
