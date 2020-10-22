@@ -1,14 +1,17 @@
-@import url("./global.css");
-@import url("./logo.css");
-@import url("./mouse.css");
-@import url("./viewerInfo.css");
-@import url("./propSubColor.css");
-@import url("./propLightSubColor.css");
-@import url("./identity.css");
-
-/* Set a background of your screen*/
-html, body {
-    height: auto !important;
-    background-size: cover;
-    background-repeat: no-repeat;
+@media only screen and (min-width: 768px) {
+    @import url("./global.css");
+    @import url("./logo.css");
+    @import url("./mouse.css");
+    @import url("./viewerInfo.css");
+    @import url("./propSubColor.css");
+    @import url("./propLightSubColor.css");
+    @import url("./identity.css");
+    
+    /* Set a background of your screen*/
+    html, body {
+        height: auto !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
+
