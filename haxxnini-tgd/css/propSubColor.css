@@ -91,10 +91,12 @@ header #header-bar #header-top-notice strong.notice-badge {
     margin: 0;
 }
 
-#board-info #board-info-profile-img {
-    border-radius: 5em;
-    border: 1px solid var(--sub-color);
-    float: left !important;
+@media screen and (min-width: 768px) {
+    #board-info #board-info-profile-img {
+        border-radius: 5em;
+        border: 1px solid var(--sub-color);
+        float: left !important;
+    }
 }
 
 #board-info h1 {

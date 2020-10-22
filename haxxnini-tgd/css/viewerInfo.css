@@ -1,38 +1,39 @@
-#board-info #viewers-area .fa-user{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-#board-info #viewers-area .fa-user:before {
-    content: "";
-    display: block;
-    background: var(--sub-badge-url) no-repeat center;
-    background-size: cover;
-    width: 28px;
-    height: 28px;
-    transition: all 0.5s;
-}
+@media screen and (min-width: 768px) {
+    #board-info #viewers-area .fa-user{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #board-info #viewers-area .fa-user:before {
+        content: "";
+        display: block;
+        background: var(--sub-badge-url) no-repeat center;
+        background-size: cover;
+        width: 28px;
+        height: 28px;
+        transition: all 0.5s;
+    }
 
-#board-info #viewers-area .fa-user:after{
-    content: "관음중인 덜렁단 ";
-    margin-left: 5px;
-    transition: all 0.5s;
-}
+    #board-info #viewers-area .fa-user:after{
+        content: "관음중인 덜렁단 ";
+        margin-left: 5px;
+        transition: all 0.5s;
+    }
 
-#board-info #viewers-area {
-    float: right;
-    display: flex;
-    align-items: center;
-    color: #B2889E;
-}
+    #board-info #viewers-area {
+        float: right;
+        display: flex;
+        align-items: center;
+        color: #B2889E;
+    }
 
-#board-info #viewers-area #viewers{
-    margin-left: 5px;
-}
+    #board-info #viewers-area #viewers{
+        margin-left: 5px;
+    }
 
-#board-info #viewers-area #viewers:after { 
-    content: "명"; 
-    cursor : text;
-    transition: all 0.5s;
+    #board-info #viewers-area #viewers:after { 
+        content: "명"; 
+        cursor : text;
+        transition: all 0.5s;
+    }
 }
-
