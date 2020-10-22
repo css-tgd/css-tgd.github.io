@@ -5,11 +5,17 @@
 @import url("./propSubColor.css");
 @import url("./propLightSubColor.css");
 @import url("./identity.css");
-
+@font-face { 
+    font-family: 'Binggrae'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
 /* Set a background of your screen*/
 html, body {
     height: auto !important;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Binggrae';
 }
 
