@@ -102,7 +102,7 @@
 
     #board-info h1 {
         border-bottom: 1px solid var(--sub-color);
-        height: 30px;
+        /* height: 30px; */
         padding-left: 60px;
     }
 
@@ -116,13 +116,7 @@
 
     #board-info #viewers-area {
         color: var(--sub-color);
-        font-size: 12px;
-        position: absolute;
-        right: 0px;
-        margin-right: 1em;
-        margin-top: 0.4em;
     }
-
 
     /* botton property */
     .btn-primary {

@@ -5,6 +5,7 @@
     --logo-url: url("../images/cvt_tgd_header_ngd.png");
     --cursor-idle-url: url("../images/cursor_1_trim.png");
     --cursor-hover-url: url("../images/cursor_2_trim.png");
-    --sub-badge-url: url("../images/subBadge_som.png");
+    --sub-badge-viewer-url: url("../images/subBadge_som.png");
+    --sub-badge-rank-url: url("../images/subBadge_maru.png");
     --top-identity: url("../images/nini-identity.png");
 }
