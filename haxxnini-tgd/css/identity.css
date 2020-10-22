@@ -1,8 +1,8 @@
 @media only screen and (hover: hover) and (pointer: fine){
-body {
-    height: auto !important;
-    background-image: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
-}
+    body {
+        height: auto !important;
+        background-image: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
+    }
 
     header {
         padding-top: 180px;
