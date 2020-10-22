@@ -40,6 +40,7 @@
 
     #board-info #viewers-area #viewers{
         margin-left: 5px;
+        margin-top: 3px;
     }
 
     #board-info #viewers-area #viewers:after { 
@@ -65,7 +66,8 @@
     /* tgd-rank */
     #board-info #score-area {
         font-size: 17px;
-        color: #6f89e9b3;
+        color: #a8ace4;
+        margin-bottom: 3px;
     }
 
     #board-info #score-area .fa-trophy {
