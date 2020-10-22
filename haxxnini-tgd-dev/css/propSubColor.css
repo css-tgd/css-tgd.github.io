@@ -1,5 +1,7 @@
 /* Description : Change the Sub colors (Original sub color is purple) */
 /* main menu property */
+
+/* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     #main .menu-wrapper > .header {
         background: var(--sub-color);
@@ -42,7 +44,7 @@
         background: var(--sub-color);
         padding: 4px 8px;
         color: #fff;
-        font-weight: bold
+        font-weight: bold;
     }
 
 
@@ -102,7 +104,6 @@
 
     #board-info h1 {
         border-bottom: 1px solid var(--sub-color);
-        /* height: 30px; */
         padding-left: 60px;
     }
 
@@ -111,6 +112,101 @@
         right: 0px;
         margin-right: 1em;
         margin-top: 2.8em;
+        background-color: var(--sub-color);
+    }
+
+    #board-info #viewers-area {
+        color: var(--sub-color);
+    }
+
+    /* botton property */
+    .btn-primary {
+        background: var(--sub-color);
+        border-color: #ffffff;
+    }
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+    #main .menu-wrapper > .header {
+        background: var(--sub-color);
+        color: #fff;
+    }
+
+
+    /* header properties */
+    header #right-search-form > #right-search-btn {
+        color: var(--sub-color);
+    }
+
+    header #right-search-form > input[type=text] {
+        border: 3px solid var(--sub-color);
+        background: #fff;
+    }
+
+    header #header-bar > .row {
+        border-top: 4px solid var(--sub-color);
+    }
+
+    header #header-bar #header-top-notice strong.notice-badge {
+        background: var(--sub-color);
+        color: #fff;
+        font-weight: bold;
+    }
+
+
+    /* pagination property */
+    .pagination > .active > a,
+    .pagination > .active > a:focus,
+    .pagination > .active > a:hover,
+    .pagination > .active > span,
+    .pagination > .active > span:focus,
+    .pagination > .active > span:hover {
+        background-color: var(--sub-color);
+        border-color: var(--sub-color);
+    }
+
+
+    /* article properties */
+    #article-content-wrapper > .header {
+        border-top: 3px solid var(--sub-color);
+        background: var(--light-sub-color);
+    }
+
+
+    #article-content-wrapper > .footer {
+        border-bottom: 3px solid var(--sub-color);
+        background: var(--light-sub-color);
+    }
+
+    #article-list #article-list-category {
+        border-top: 2px solid var(--sub-color);
+        background: var(--light-sub-color);
+        border-bottom: 2px solid var(--sub-color);
+    }
+
+    #article-reply-area > .header h5 {
+        font-size: 14px;
+        color: var(--sub-color);
+        font-weight: bold;
+    }
+
+    /* baord info properties */
+    #board-info {
+        border-top: 3px solid var(--sub-color);
+    }
+
+
+    #board-info #board-info-profile-img {
+        border: 1px solid var(--sub-color);
+    }
+
+
+    #board-info h1 {
+        border-bottom: 1px solid var(--sub-color);
+    }
+
+    #board-info h1 .badge {
         background-color: var(--sub-color);
     }
 

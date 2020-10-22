@@ -1,3 +1,4 @@
+/* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     body {
         height: auto !important;
@@ -14,4 +15,9 @@
         height: 300px;
         position: absolute;
     }
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+
 }

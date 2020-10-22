@@ -1,6 +1,6 @@
+/* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     /* viewinfo */
-
     #board-info #viewers-area {
         font-size: 17px;
         right: 0px;
@@ -33,11 +33,6 @@
         transition: all 0.5s;
     }
 
-    #board-info #viewers-area {
-  
-        
-    }
-
     #board-info #viewers-area #viewers{
         margin-left: 5px;
         margin-top: 3px;
@@ -51,7 +46,7 @@
 
     /* streamer-name */
     #board-info {
-        height: 80px;
+        height: 85px;
     }
     
     #board-info h1 {
@@ -68,6 +63,7 @@
         font-size: 17px;
         color: #a8ace4;
         margin-bottom: 3px;
+        margin-left: 180px;
     }
 
     #board-info #score-area .fa-trophy {
@@ -91,5 +87,10 @@
         margin-left: 5px;
         transition: all 0.5s;
     }
+
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
 
 }
