@@ -1,4 +1,8 @@
 @media only screen and (hover: hover) and (pointer: fine){
+    /* viewinfo */
+    #board-info #viewers-area {
+        font-size: 17px;
+    }
     #board-info #viewers-area .fa-user{
         display: flex;
         align-items: center;
@@ -7,7 +11,7 @@
     #board-info #viewers-area .fa-user:before {
         content: "";
         display: block;
-        background: var(--sub-badge-url) no-repeat center;
+        background: var(--sub-badge-viewer-url) no-repeat center;
         background-size: cover;
         width: 28px;
         height: 28px;
@@ -24,7 +28,8 @@
         float: right;
         display: flex;
         align-items: center;
-        color: #B2889E;
+        color: #a8ace4;
+        
     }
 
     #board-info #viewers-area #viewers{
@@ -36,4 +41,47 @@
         cursor : text;
         transition: all 0.5s;
     }
+
+    /* streamer-name */
+    #board-info {
+        height: 80px;
+    }
+    
+    #board-info h1 {
+        height: 55px;
+    }
+
+    #board-info h1>a {
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    /* tgd-rank */
+    #board-info #score-area {
+        font-size: 17px;
+        color: rgba(111, 133, 233, 0.4);
+    }
+
+    #board-info #score-area .fa-trophy {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #board-info #score-area .fa-trophy:before {
+        content: "";
+        display: block;
+        background: var(--sub-badge-rank-url) no-repeat center;
+        background-size: cover;
+        width: 28px;
+        height: 28px;
+        transition: all 0.5s;
+    }
+
+    #board-info #score-area .fa-trophy:after{
+        content: "덜렁단 전투력 ";
+        margin-left: 5px;
+        transition: all 0.5s;
+    }
+
 }
