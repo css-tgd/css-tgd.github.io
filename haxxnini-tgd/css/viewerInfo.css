@@ -93,6 +93,63 @@
         display: none;
     }
 
+    /* viewerinfo background gradient animation */
+    /*
+    #board-info {
+        background: var(--gradient-ani-color);
+        background-size: 400% 400%;
+        -webkit-animation: gradientBG 10s ease infinite;
+                animation: gradientBG 10s ease infinite;
+    }
+
+    @-webkit-keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    @keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    #board-info #score-area, 
+    #board-info #viewers-area {
+        font-weight: bold;
+        color: #000;
+    }
+    */
+
+    /* text animation */
+    #board-info h1>a {
+        color: #000;
+        background-image: var(--gradient-ani-text-color);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 10s infinite linear;
+                animation: hue 10s infinite linear;    
+    }
+      
+    @keyframes hue {
+        from {
+          filter: hue-rotate(0deg);
+        }
+        to {
+          filter: hue-rotate(-360deg);
+        }
+    }
 }
 
 /* mobile */
@@ -166,4 +223,23 @@
     #article-option-area {
         display: none;
     }
+        /* text animation */
+        #board-info h1>a {
+            color: #000;
+            background-image: var(--gradient-ani-text-color);
+            -webkit-background-clip: text;
+                    background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: hue 10s infinite linear;
+                    animation: hue 10s infinite linear;    
+        }
+          
+        @keyframes hue {
+            from {
+              filter: hue-rotate(0deg);
+            }
+            to {
+              filter: hue-rotate(-360deg);
+            }
+        }
 }

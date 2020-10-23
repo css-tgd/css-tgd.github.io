@@ -2,6 +2,9 @@
     --main-color: ;
     --sub-color:  rgb(126, 175, 254);
     --light-sub-color: rgb(223, 237, 250);
+    --gradient-color: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
+    --gradient-ani-color: linear-gradient(-45deg,#ffffff, #dfedfa, #7eaffe, #ad91ff);
+    --gradient-ani-text-color: -webkit-linear-gradient(92deg, #7eaffe, #ad91ff, #000000);
     --logo-url: url("../images/cvt_tgd_header_ngd.png");
     --cursor-idle-url: url("../images/cursor_1_trim.png");
     --cursor-hover-url: url("../images/cursor_2_trim.png");
