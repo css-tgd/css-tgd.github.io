@@ -1,6 +1,7 @@
 /* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     /* 댓글창 댓글 프로필 이미지 */
+    /*
     .reply-writer-image{
         width: 4.0em;
         height: 4.0em;
@@ -17,7 +18,7 @@
     #article-reply-area .reply {
         margin-bottom: 0.8em;
     }
-
+    */
 
     /* 게시글 작성자 프로필 이미지 확대 */
 
