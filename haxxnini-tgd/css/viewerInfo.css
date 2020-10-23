@@ -97,5 +97,73 @@
 
 /* mobile */
 @media only screen and (hover: none) and (pointer: coarse){
+    /* streamer-name */
+    #board-info>h1>a {
+        color: #000;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 12px;
+        position: absolute;
+    }
 
+    /* tgd-score */
+    #board-info #score-area {
+        font-size: 17px;
+        color: #a8ace4;
+        margin-bottom: 3px;
+        margin-left: 100px;
+    }
+
+    #board-info #score-area .fa-trophy {
+        display: inline-flex;
+        align-items: baseline;
+        margin-left: 10px;
+    }
+
+    #board-info #score-area .fa-trophy:before {
+        content: "";
+        display: block;
+        background: var(--sub-badge-rank-url) no-repeat center;
+        background-size: cover;
+        width: 28px;
+        height: 28px;
+        transition: all 0.5s;
+    }
+
+    /* viewinfo */
+    #board-info #viewers-area {
+        font-size: 17px;
+        right: 0px;
+        margin-right: 1em;
+        margin-top: 0.4em;
+        position: inherit;
+        display: inline-flex;
+        align-items: center;
+        color: #a8ace4;
+    }
+
+    #board-info #viewers-area .fa-user{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #board-info #viewers-area .fa-user:before {
+        content: "";
+        display: block;
+        background: var(--sub-badge-viewer-url) no-repeat center;
+        background-size: cover;
+        width: 28px;
+        height: 28px;
+        transition: all 0.5s;
+    }
+
+    #board-info #viewers-area #viewers{
+        margin-left: 5px;
+        margin-top: 3px;
+    }
+
+    /* Hide Button for Notice toggle */
+    #article-option-area {
+        display: none;
+    }
 }
