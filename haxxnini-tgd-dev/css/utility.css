@@ -20,7 +20,12 @@
     }
 
     /* 페이지 최상단 이동 버튼 */
+    #movetotop img {
+        opacity: 0;
+    }
+
     #movetotop {
+        content: " ";
         display: inline-block;
         opacity: 1;
         background: var(--movetop-base-url);
@@ -32,6 +37,9 @@
 
     #movetotop:hover {
         background: var(--movetop-url);
+        width: 80px;
+        height: 80px;
+        background-size: contain;
     }
 
 }
