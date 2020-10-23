@@ -135,9 +135,12 @@
     #board-info h1>a {
         color: #7eaffe;
         background-image: var(--gradient-ani-text-color);
+
         -webkit-background-clip: text;
+                background-clip: text;
         -webkit-text-fill-color: transparent;
-        -webkit-animation: hue 60s infinite linear;
+        -webkit-animation: hue 10s infinite linear;
+                animation: hue 10s infinite linear;    
     }
       
     @keyframes hue {
