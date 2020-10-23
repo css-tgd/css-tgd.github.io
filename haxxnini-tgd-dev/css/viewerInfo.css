@@ -93,7 +93,8 @@
         display: none;
     }
 
-    /* gradient animation */
+    /* viewerinfo background gradient animation */
+    /*
     #board-info {
         background: var(--gradient-ani-color);
         background-size: 400% 400%;
@@ -123,10 +124,29 @@
             background-position: 0% 50%;
         }
     }
-
-    #board-info #score-area, #board-info #viewers-area {
+    #board-info #score-area, 
+    #board-info #viewers-area {
         font-weight: bold;
         color: #000;
+    }
+    */
+
+    /* text animation */
+    #board-info h1>a {
+        color: #7eaffe;
+        background-image: var(--gradient-ani-text-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 60s infinite linear;
+    }
+      
+    @keyframes hue {
+        from {
+          filter: hue-rotate(0deg);
+        }
+        to {
+          filter: hue-rotate(-360deg);
+        }
     }
 }
 
