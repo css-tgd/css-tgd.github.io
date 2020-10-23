@@ -1,7 +1,7 @@
 /* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     /* 댓글창 댓글 프로필 이미지 */
-    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image{
+    .reply-writer-image{
         width: 4.0em;
         height: 4.0em;
         margin-right: 0.44em;
@@ -10,11 +10,11 @@
         top: -8px;  
     }
     
-    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    .reply-writer.logged {
         padding-left: 45px;
     }
 
-    #article-reply-area #reply-best-area .reply {
+    #article-reply-area .reply {
         margin-bottom: 0.8em;
     }
 
