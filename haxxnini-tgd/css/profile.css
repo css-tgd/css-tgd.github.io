@@ -68,9 +68,9 @@
 /* mobile */
 @media only screen and (hover: none) and (pointer: coarse){
     #board-info #board-info-profile-img {
+        content: var(--movetop-base-url);
         width: 50px;
         height: 50px;
-        content: var(--movetop-base-url);
         line-height: 50px;
     }
 }

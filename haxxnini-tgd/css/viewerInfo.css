@@ -100,9 +100,9 @@
     /* streamer-name */
     #board-info>h1>a {
         color: #000;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bold;
-        margin-top: 12px;
+        margin-top: 5px;
         position: absolute;
     }
 
@@ -111,7 +111,7 @@
         font-size: 17px;
         color: #a8ace4;
         margin-bottom: 3px;
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
     #board-info #score-area .fa-trophy {
