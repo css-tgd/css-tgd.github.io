@@ -25,7 +25,6 @@
     }
 
     #movetotop {
-        content: " ";
         display: inline-block;
         opacity: 1;
         background: var(--movetop-base-url);
@@ -44,3 +43,20 @@
 
 }
 
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+    /* 페이지 최상단 이동 버튼 */
+    #movetotop img {
+        opacity: 0;
+    }
+
+    #movetotop {
+        display: inline-block;
+        opacity: 1;
+        background: var(--movetop-url);
+        width: 48px;
+        height: 48px;
+        background-size: contain;
+        border-radius: 50%;
+    }
+}

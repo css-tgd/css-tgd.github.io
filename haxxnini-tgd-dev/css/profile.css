@@ -1,7 +1,8 @@
 /* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     /* 댓글창 댓글 프로필 이미지 */
-    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image{
+    /*
+    .reply-writer-image{
         width: 4.0em;
         height: 4.0em;
         margin-right: 0.44em;
@@ -10,14 +11,14 @@
         top: -8px;  
     }
     
-    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    .reply-writer.logged {
         padding-left: 45px;
     }
 
-    #article-reply-area #reply-best-area .reply {
+    #article-reply-area .reply {
         margin-bottom: 0.8em;
     }
-
+    */
 
     /* 게시글 작성자 프로필 이미지 확대 */
 
@@ -66,5 +67,10 @@
 
 /* mobile */
 @media only screen and (hover: none) and (pointer: coarse){
-
+    #board-info #board-info-profile-img {
+        content: var(--movetop-base-url);
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
 }

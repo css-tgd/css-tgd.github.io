@@ -1,0 +1,18 @@
+/* desktop */
+@media only screen and (hover: hover) and (pointer: fine){
+    /* 아랫정보창 위로 */
+    #board-info #board-info-bottom {
+        margin-left: 396px;
+        position: absolute;
+        display: flex;
+        top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid var(--sub-color);
+    }
+
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+
+}
