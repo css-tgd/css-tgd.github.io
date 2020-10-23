@@ -35,25 +35,28 @@ button.achv-badge-btn-big {
 /* 트게더 주인 프로필 이미지 변경 및 마우스 오버로 확대 */
 
 #board-info #board-info-profile-img {
-    width: 75px;
-    height: 75px;
-    content: var(--owner-profile);
+    width: 100px;
+    height: 100px;
+    content: var(--owner-profile-ani);
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -12px;
+    left: 8px;
     border: 2px solid var(--sub-color);
-    border-radius: 60%;
+    border-radius: 30%;
+    filter: saturate(1.2);
 }
 
 img#board-info-profile-img:hover {
-    content: var(--owner-profile-ani);
     z-index: 1;
     transform: scale(4);
     transition: transform 1.2s;
+    transition-delay: 0.5s
 }
 
+#board-info h1 {
+    margin-left: 90px;
+}
 #board-info #board-info-bottom {
-    padding-top: 3px;
-    margin-left: 58px;
+    margin-left: 90px;
 }
 
