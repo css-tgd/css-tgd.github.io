@@ -39,7 +39,7 @@
     #board-info #board-info-profile-img {
         width: 100px;
         height: 100px;
-        content: var(--owner-profile-ani);
+        content: var(--owner-profile-ani-url);
         position: absolute;
         top: -12px;
         left: 8px;

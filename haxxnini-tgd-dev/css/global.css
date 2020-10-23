@@ -7,7 +7,8 @@
     --cursor-hover-url: url("../images/cursor_2_trim.png");
     --sub-badge-viewer-url: url("../images/subBadge_som.png");
     --sub-badge-rank-url: url("../images/subBadge_maru.png");
-    --top-identity: url("../images/nini-identity.png");
-    --owner-profile: url("../images/ninetail.png");
-    --owner-profile-ani: url("../images/ninetail.gif");
+    --top-identity-url: url("../images/nini-identity.png");
+    --owner-profile-ani-url: url("../images/profile-ninetail.gif");
+    --movetop-url: url("../images/movetop.png");
+    --movetop-base-url: url("../images/movetop-base.png");
 }
