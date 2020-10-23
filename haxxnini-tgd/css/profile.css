@@ -1,0 +1,70 @@
+/* desktop */
+@media only screen and (hover: hover) and (pointer: fine){
+    /* 댓글창 댓글 프로필 이미지 */
+    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer-image{
+        width: 4.0em;
+        height: 4.0em;
+        margin-right: 0.44em;
+        position: absolute;
+        left: -8px;
+        top: -8px;  
+    }
+    
+    #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+        padding-left: 45px;
+    }
+
+    #article-reply-area #reply-best-area .reply {
+        margin-bottom: 0.8em;
+    }
+
+
+    /* 게시글 작성자 프로필 이미지 확대 */
+
+    #article-info .article-profile-img {
+        position: absolute;
+        right: 1em;
+        top: 0.1em;
+        width: 5.0em;
+        height: 5.0em;
+    }
+
+    button.achv-badge-btn-big {
+        right: 6.0em;
+    }
+
+
+    /* 트게더 주인 프로필 이미지 변경 및 마우스 오버로 확대 */
+
+    #board-info #board-info-profile-img {
+        width: 100px;
+        height: 100px;
+        content: var(--owner-profile-ani-url);
+        position: absolute;
+        top: -12px;
+        left: 8px;
+        border: 2px solid var(--sub-color);
+        border-radius: 30%;
+        filter: saturate(1.2);
+    }
+
+    img#board-info-profile-img:hover {
+        z-index: 1;
+        transform: scale(4);
+        transition: transform 1.2s;
+        transition-delay: 0.5s
+    }
+
+    #board-info h1 {
+        margin-left: 90px;
+    }
+    #board-info #board-info-bottom {
+        margin-left: 90px;
+    }
+
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+
+}

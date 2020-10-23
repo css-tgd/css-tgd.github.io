@@ -1,10 +1,11 @@
 @import url("./global.css");
 @import url("./logo.css");
-@import url("./mouse.css");
+@import url("./utility.css");
 @import url("./viewerInfo.css");
 @import url("./propSubColor.css");
 @import url("./propLightSubColor.css");
 @import url("./identity.css");
+@import url("./profile.css");
 @font-face { 
     font-family: 'Binggrae'; 
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff'); 

@@ -1,5 +1,7 @@
 /* Description : Change the light-sub colors (Original light sub color is light purple) */
 /* main property */
+
+/* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     #main .menu-wrapper .spacer {
         background: var(--light-sub-color);
@@ -27,4 +29,28 @@
     #article-reply-area #reply-best-area .reply > .reply-header {
         background: var(--light-sub-color)
     }
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+    #main .menu-wrapper .spacer {
+        background: var(--light-sub-color);
+    }
+    /* article properties */
+    #article-list #article-list-category > a {
+        background: var(--light-sub-color);
+    }
+
+    #article-list #article-list-category > a.active, #article-list #article-list-category>a:hover {
+        background: var(--light-sub-color) ;
+    }
+
+    #article-reply-area #reply-real-area .reply > .reply-header {
+        background: var(--light-sub-color);
+    }
+
+    #article-reply-area #reply-best-area .reply > .reply-header {
+        background: var(--light-sub-color)
+    }
+
 }

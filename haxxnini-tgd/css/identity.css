@@ -1,3 +1,4 @@
+/* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
     body {
         height: auto !important;
@@ -8,10 +9,15 @@
         padding-top: 180px;
     }
     .col-xs-4:nth-child(1):before {
-        content: var(--top-identity);
+        content: var(--top-identity-url);
         left: 350px;
         top: -160px;
         height: 300px;
         position: absolute;
     }
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+
 }
