@@ -164,10 +164,10 @@
 
     /* tgd-score */
     #board-info #score-area {
-        font-size: 17px;
+        font-size: 15px;
         color: #a8ace4;
         margin-bottom: 3px;
-        margin-left: 130px;
+        margin-left: 120px;
     }
 
     #board-info #score-area .fa-trophy {
@@ -188,7 +188,7 @@
 
     /* viewinfo */
     #board-info #viewers-area {
-        font-size: 17px;
+        font-size: 15px;
         right: 0px;
         margin-right: 1em;
         margin-top: 0.4em;
