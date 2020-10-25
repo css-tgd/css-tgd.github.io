@@ -132,7 +132,6 @@
         color: #fff;
     }
 
-
     /* header properties */
     #header-search-link {
         color: var(--sub-color);
@@ -142,6 +141,7 @@
     }
 
     header {
+        border-top: 4px solid var(--sub-color);
         border-bottom: 4px solid var(--sub-color);
     }
 
