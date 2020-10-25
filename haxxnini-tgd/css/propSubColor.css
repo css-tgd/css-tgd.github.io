@@ -139,7 +139,9 @@
     .fa-search {
         color: var(--sub-color);
     }
-
+    header #right-search-form>#right-search-btn {
+        color: var(--sub-color);
+    }
     header {
         border-top: 4px solid var(--sub-color);
         border-bottom: 4px solid var(--sub-color);
