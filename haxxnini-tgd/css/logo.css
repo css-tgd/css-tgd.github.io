@@ -7,7 +7,7 @@
 
 @media only screen and (hover: none) and (pointer: coarse){
     header > #header-area > a > h1 {
-        height: 100px;
+        width: 300px;
         margin-left: 1px;
         background: var(--top-identity-url) no-repeat;
         background-size: contain;
