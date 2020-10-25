@@ -7,10 +7,10 @@
 
 @media only screen and (hover: none) and (pointer: coarse){
     header > #header-area > a > h1 {
-        height: 60px;
+        height: auto;
         width: auto;
-        margin-left: 20px;
-        background: var(--logo-url) no-repeat;
+        margin-left: 10px;
+        background: var(--top-identity-url) no-repeat;
         background-size: contain;
     }
 }
