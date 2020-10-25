@@ -67,10 +67,14 @@
 
 /* mobile */
 @media only screen and (hover: none) and (pointer: coarse){
-    #board-info #board-info-profile-img {
-        content: var(--movetop-base-url);
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
+    #board-info > h1 > #board-info-profile-img {
+        content: var(--owner-profile-mobile-ani-url);
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        margin-top:-30px;
+        background-size: 80px;
+        border: 3px solid #B2889E;
+        border-radius: 50%;
     }
 }
