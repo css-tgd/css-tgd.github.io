@@ -226,4 +226,20 @@
     #article-option-area {
         display: none;
     }
+
+    /* very small screen */
+    @media only screen and (max-width: 400px) {
+        #board-info {
+            height: 88px;
+        }
+        #board-info #score-area {
+            right: 8em;
+            top: 15.5em;
+        }
+        #board-info #viewers-area {
+            right: 1em;
+            top: 15.5em;
+        }
+
+    }
 }
