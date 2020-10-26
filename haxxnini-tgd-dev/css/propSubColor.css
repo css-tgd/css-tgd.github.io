@@ -143,8 +143,8 @@
         border-top: 4px solid var(--sub-color);
         border-bottom: 4px solid var(--sub-color);
     }
-
-    header #header-bar #header-top-notice strong.notice-badge {
+    
+    #header-top-notice strong.notice-badge {
         background: var(--sub-color);
         color: #fff;
         font-weight: bold;
