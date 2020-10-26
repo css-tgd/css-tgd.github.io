@@ -245,7 +245,10 @@
     /* large screen */
     @media only screen and (min-width: 600px) {
         #board-info #score-area {
-            right: 12em;
+            right: 14em;
+        }
+        #board-info #viewers-area {
+            right: 7em;
         }
     }
 }
