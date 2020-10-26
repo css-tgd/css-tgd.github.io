@@ -153,6 +153,10 @@
 
 /* mobile */
 @media only screen and (hover: none) and (pointer: coarse){
+    #board-info {
+        height: 56px;
+    }
+
     /* streamer-name */
     #board-info>h1>a {
         color: #000;
@@ -166,9 +170,9 @@
     /* tgd-score */
     #board-info #score-area {
         font-size: 15px;
-        color: #a8ace4;
         margin-bottom: 3px;
-        margin-left: 150px;
+        position: absolute;
+        right: 10em;
     }
 
     #board-info #score-area .fa-trophy {
@@ -190,13 +194,12 @@
     /* viewinfo */
     #board-info #viewers-area {
         font-size: 15px;
-        right: 0px;
         margin-right: 1em;
         margin-top: 0.4em;
-        position: inherit;
+        position: absolute;
+        right: 5em;
         display: inline-flex;
         align-items: center;
-        color: #a8ace4;
     }
 
     #board-info #viewers-area .fa-user{
