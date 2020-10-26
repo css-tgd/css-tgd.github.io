@@ -242,4 +242,10 @@
         }
 
     }
+    /* large screen */
+    @media only screen and (min-width: 600px) {
+        #board-info #score-area {
+            right: 12em;
+        }
+    }
 }
