@@ -39,8 +39,8 @@
         border-right: 0;
         z-index: 200;
     }
-
-    header #header-bar #header-top-notice strong.notice-badge {
+    
+    #header-top-notice strong.notice-badge {
         background: var(--sub-color);
         padding: 4px 8px;
         color: #fff;
