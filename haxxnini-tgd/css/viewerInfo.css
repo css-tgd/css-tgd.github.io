@@ -140,6 +140,7 @@
         -webkit-animation: hue 15s infinite linear;
                 animation: hue 15s infinite linear;    
     }
+    
     #board-info h1>a.badge.badge-live {
         display: none;
     }
