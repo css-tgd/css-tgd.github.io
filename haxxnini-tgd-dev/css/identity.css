@@ -6,7 +6,8 @@
     }
 
     header {
-        padding-top: 180px;
+        /* padding-top: 180px; */
+        padding-top: 580px;
     }
     .col-xs-4:nth-child(1):before {
         /*
@@ -17,8 +18,8 @@
         position: absolute;
         */
         content: var(--event-url);
-        left: 350px;
-        top: -160px;
+        left: 250px;
+        top: -560px;
         height: 600px;
         position: absolute;
     }
