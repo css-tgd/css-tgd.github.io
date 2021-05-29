@@ -5,22 +5,22 @@
         background-image: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
     }
     header {
-        /* padding-top: 180px; */
-        padding-top: 620px;
+        padding-top: 180px;
+        /* padding-top: 620px; */
     }
     .col-xs-4:nth-child(1):before {
-        /*
         content: var(--top-identity-url);
         left: 350px;
         top: -160px;
         height: 300px;
         position: absolute;
-        */
+        /*
         content: var(--event-url);
         left: 250px;
         top: -580px;
         height: 600px;
         position: absolute;
+        */
     }
 }
 
