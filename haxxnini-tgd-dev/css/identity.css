@@ -6,13 +6,13 @@
     }
 
     header {
-        padding-top: 180px;
+        /* padding-top: 180px; */
         /* padding-top: 620px; */
     }
     .col-xs-4:nth-child(1):before {
         content: var(--top-identity-url);
         left: 350px;
-        top: -500px;
+        top: -550px;
         height: 300px;
         position: absolute;
 		/*
