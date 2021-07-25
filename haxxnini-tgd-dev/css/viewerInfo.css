@@ -87,7 +87,13 @@
         margin-left: 5px;
         transition: all 0.5s;
     }
-
+	
+	/* SNS LINKS */
+	#goClipBtn:after{
+		content: " | "
+	}
+	
+	
     /* Hide Button for Notice toggle */
     #article-option-area {
         display: none;

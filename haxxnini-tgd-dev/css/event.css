@@ -1,0 +1,18 @@
+/* desktop */
+@media only screen and (hover: hover) and (pointer: fine){
+    header {
+        padding-top: 620px;
+    }
+    .col-xs-4:nth-child(1):before {
+        content: var(--oneyear-url);
+        left: 0px;
+        top: -620px;
+        height: 444px;
+        position: absolute;
+    }
+}
+
+/* mobile */
+@media only screen and (hover: none) and (pointer: coarse){
+
+}
