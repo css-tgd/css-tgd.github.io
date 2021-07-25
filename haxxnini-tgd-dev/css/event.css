@@ -1,14 +1,16 @@
 /* desktop */
 @media only screen and (hover: hover) and (pointer: fine){
-    header {
-        padding-top: 620px;
-    }
-    .col-xs-4:nth-child(1):before {
-        content: var(--oneyear-url);
-        left: -50px;
-        top: -620px;
-        height: 444px;
-        position: absolute;
+    header:before {
+		display: block;
+		width: 100%;
+		height: 444px;
+		background: var(--oneyear-url) no-repeat #26232b;
+		background-position: center center;
+		position: relative;
+		top: 0;
+		padding: 0;
+		content: " ";
+		margin-bottom: 15px;
     }
 }
 
