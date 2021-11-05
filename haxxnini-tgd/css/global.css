@@ -1,20 +1,25 @@
 :root {
     --main-color: ;
-    --sub-color:  rgb(126, 175, 254);
-    --light-sub-color: rgb(223, 237, 250);
-    --gradient-color: linear-gradient(to bottom, #dfedfa, #7eaffe, #ad91ff);
-    --gradient-ani-color: linear-gradient(-45deg,#ffffff, #dfedfa, #7eaffe, #ad91ff);
-    --gradient-ani-text-color: -webkit-linear-gradient(-45deg, #7eaffe, #ad91ff);
+    --sub-color:  rgb(80, 80, 80);
+    --light-sub-color: rgb(170, 170, 170);
+    --gradient-color: linear-gradient(to bottom, #000000, #464646, #a1a1a1);
+    --gradient-ani-color: linear-gradient(-45deg,#000000, #464646, #a1a1a1, #bebebe);
+    --gradient-ani-text-color: -webkit-linear-gradient(-45deg, #7c7c7c, #ffffff);
     --logo-url: url("https://css-tgd.github.io/haxxnini-tgd/images/nini-identity-small.png");
     --cursor-idle-url: url("https://css-tgd.github.io/haxxnini-tgd/images/cursor_1_trim.png");
     --cursor-hover-url: url("https://css-tgd.github.io/haxxnini-tgd/images/cursor_2_trim.png");
     --sub-badge-viewer-url: url("https://css-tgd.github.io/haxxnini-tgd/images/subBadge_som.png");
     --sub-badge-rank-url: url("https://css-tgd.github.io/haxxnini-tgd/images/subBadge_maru.png");
     --top-identity-url: url("https://css-tgd.github.io/haxxnini-tgd/images/nini-identity.png");
-    --owner-profile-ani-url: url("https://css-tgd.github.io/haxxnini-tgd/images/profile-ninetail.gif");
-    --owner-profile-mobile-ani-url: url("https://css-tgd.github.io/haxxnini-tgd/images/profile-ninetail-mobile.gif");
+    --owner-profile-ani-url: url("https://css-tgd.github.io/haxxnini-tgd/images/profile_farewall.gif");
+    --owner-profile-mobile-ani-url: url("https://css-tgd.github.io/haxxnini-tgd/images/profile_farewall_mobile.gif");
     --movetop-url: url("https://css-tgd.github.io/haxxnini-tgd/images/movetop.png");
     --movetop-base-url: url("https://css-tgd.github.io/haxxnini-tgd/images/movetop-base.png");
     --event-url: url("https://css-tgd.github.io/haxxnini-tgd/images/event.png");
     --oneyear2nd-url: url("https://css-tgd.github.io/haxxnini-tgd/images/1year-Anniversary-2nd_resize.jpg");
-}
+    --laststreambanner-url: url("https://css-tgd.github.io/haxxnini-tgd/images/last_stream_banner.png");
+    --snow-effect1-url: url("https://css-tgd.github.io/haxxnini-tgd/images/snows_1.png");
+    --snow-effect2-url: url("https://css-tgd.github.io/haxxnini-tgd/images/snows_2.png");
+    --snow-effect3-url: url("https://css-tgd.github.io/haxxnini-tgd/images/snows_3.png");
+}   
+
