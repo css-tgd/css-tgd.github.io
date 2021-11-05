@@ -1,0 +1,19 @@
+html {
+    background: linear-gradient(to bottom, #000000, #464646, #a1a1a1);
+    height: auto !important;
+  }
+body {
+    background: transparent;
+    animation: snow 20s linear infinite;
+  
+    /*백그라운드 이미지 원근감느낌 이미지*/
+    background-image:var(--snow-effect1-url), var(--snow-effect2-url), var(--snow-effect3-url);
+  }
+  
+  
+  /*뒷배경 움직이는 애니메이션*/
+  @keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  }
+  
