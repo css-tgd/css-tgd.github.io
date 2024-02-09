@@ -575,19 +575,19 @@ header #header-bar #header-menu-right {
     border: 0 solid #71acd1;
 }
 #board-info>h1>a.badge.badge-live::before {
-    position:fixed;
+    position:relative;
     content: '';
     display: none;
 }
 
 .badge-live {
-    position:fixed;
+    position:relative;
     content: '';
     display: none; 
 }
 
 #board-info>h1>a.badge.badge-live::after {
-    position:fixed;
+    position:relative;
     content: '';
     display: none;
 }
