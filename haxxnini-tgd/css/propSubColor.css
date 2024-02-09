@@ -112,8 +112,9 @@
         right: 0px;
         margin-right: 1em;
         margin-top: 2.8em;
-        */
         background-color: var(--sub-color);
+        */
+
     }
 
     #board-info #viewers-area {
@@ -203,11 +204,11 @@
     #board-info h1 {
         border-bottom: 1px solid var(--sub-color);
     }
-
+/*
     #board-info h1 .badge {
         background-color: var(--sub-color);
     }
-
+*/
     #board-info #viewers-area {
         color: var(--sub-color);
     }
