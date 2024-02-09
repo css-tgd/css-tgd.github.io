@@ -580,7 +580,7 @@ header #header-bar #header-menu-right {
     display: none;
 }
 
-#board-info>h1>a.badge.badge-live {
+.badge-live {
     position:fixed;
     content: '';
     display: none; 
