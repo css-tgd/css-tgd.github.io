@@ -578,18 +578,21 @@ header #header-bar #header-menu-right {
     position:absolute;
     content: '';
     display: none;
+    z-index: -99;
 }
 
 .badge-live {
     position:absolute;
     content: '';
     display: none; 
+    z-index: -99;
 }
 
 #board-info>h1>a.badge.badge-live::after {
     position:absolute;
     content: '';
     display: none;
+    z-index: -99;
 }
 
 #board-info #viewers-area .fa-user::before {

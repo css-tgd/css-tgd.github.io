@@ -117,6 +117,17 @@
         z-index: -99;
 
     }
+    #board-info h1 .badge-live {
+        position:absolute;
+        /*
+        right: 0px;
+        margin-right: 1em;
+        margin-top: 2.8em;
+        background-color: var(--sub-color);
+        */
+        z-index: -99;
+
+    }
 
     #board-info #viewers-area {
         color: var(--sub-color);
