@@ -87,7 +87,13 @@
         margin-left: 5px;
         transition: all 0.5s;
     }
-
+	
+	/* SNS LINKS */
+	#goClipBtn:after{
+		content: " | "
+	}
+	
+	
     /* Hide Button for Notice toggle */
     #article-option-area {
         display: none;
@@ -139,10 +145,6 @@
         -webkit-text-fill-color: transparent;
         -webkit-animation: hue 15s infinite linear;
                 animation: hue 15s infinite linear;    
-    }
-    
-    #board-info h1>a.badge.badge-live {
-        display: none;
     }
       
     @keyframes hue {
@@ -229,30 +231,5 @@
     /* Hide Button for Notice toggle */
     #article-option-area {
         display: none;
-    }
-
-    /* very small screen */
-    @media only screen and (max-width: 400px) {
-        #board-info {
-            height: 88px;
-        }
-        #board-info #score-area {
-            right: 8em;
-            top: 15.5em;
-        }
-        #board-info #viewers-area {
-            right: 1em;
-            top: 15.5em;
-        }
-
-    }
-    /* large screen */
-    @media only screen and (min-width: 600px) {
-        #board-info #score-area {
-            right: 14em;
-        }
-        #board-info #viewers-area {
-            right: 7em;
-        }
     }
 }

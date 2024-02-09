@@ -1,4 +1,3 @@
-/* 20240229
 @import url("./global.css");
 @import url("./logo.css");
 @import url("./utility.css");
@@ -8,7 +7,7 @@
 @import url("./identity.css");
 @import url("./profile.css");
  
-@import url("./event.css"); 
+@import url("./event.css");
 @import url("./effects.css");
 
 @font-face { 
@@ -17,12 +16,11 @@
     font-weight: normal; 
     font-style: normal; 
 }
-/= Set a background of your screen =/
+/* Set a background of your screen*/
 html, body {
     height: auto !important;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Binggrae';
 }
-*/
 
