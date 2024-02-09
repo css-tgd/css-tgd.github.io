@@ -575,10 +575,12 @@ header #header-bar #header-menu-right {
     border: 0 solid #71acd1;
 }
 #board-info>h1>a.badge-live::before {
+    content: '';
     display: none;
 }
 
 a.badge.badge-live {
+    content: '';
     display: none; 
 }
 
