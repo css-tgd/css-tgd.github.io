@@ -107,8 +107,8 @@
     }
 
     #board-info h1 .badge {
-        position: relative;
         /*
+        position: relative;
         right: 0px;
         margin-right: 1em;
         margin-top: 2.8em;

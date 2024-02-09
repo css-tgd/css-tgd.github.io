@@ -574,17 +574,17 @@ header #header-bar #header-menu-right {
     border-radius: 50%;
     border: 0 solid #71acd1;
 }
-#board-info>h1>a.badge-live::before {
+#board-info>h1>a.badge.badge-live::before {
     content: '';
     display: none;
 }
 
-a.badge.badge-live {
+#board-info>h1>a.badge.badge-live {
     content: '';
     display: none; 
 }
 
-#board-info>h1>a.badge-live::after {
+#board-info>h1>a.badge.badge-live::after {
     content: '';
     display: none;
 }
