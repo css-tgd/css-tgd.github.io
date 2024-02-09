@@ -578,7 +578,7 @@ header #header-bar #header-menu-right {
     display: none;
 }
 
-.badge-live {
+a.badge.badge-live {
     display: none; 
 }
 
