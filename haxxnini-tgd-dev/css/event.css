@@ -4,7 +4,7 @@
 		display: block;
 		width: 100%;
 		height: 500px;
-		background: var(--laststreambanner-url) no-repeat rgba(223, 237, 250, 0);
+		background: var(--lastdancebanner-url) no-repeat rgba(223, 237, 250, 0);
 		background-position: center center;
 		position: relative;
 		top: -7px;
