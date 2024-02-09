@@ -577,6 +577,11 @@ header #header-bar #header-menu-right {
 #board-info>h1>a.badge-live::before {
     display: none;
 }
+
+.badge-live {
+    display: none; 
+}
+
 #board-info #viewers-area .fa-user::before {
     color: rgba(10, 59, 84, 0);
     content: url(https://static-cdn.jtvnw.net/badges/v1/244ddb81-d6c4-4a2c-b025-bb28fda6b6fb/1);
